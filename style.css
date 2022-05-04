@@ -1,0 +1,370 @@
+/* defalult cs */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    max-width: 90%;
+}
+
+body h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-theme {
+background-color: #1170ff;
+}
+.Pricing  {
+    background-color: #1170ff;   
+}
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+}
+.logo{
+    width: 80px;
+}
+
+/* header part start css */
+
+/* manu part */
+
+/* manu part  end*/
+.header-section{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3) , rgba(0,168,255,0.3)), url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioxoAKp5zaxwyirK6AO4YxeDaSRpAV78Aic5YuHpxuYdAdcfRI-iOGwqx7Viub4CAeZX030vFBpLrwTpvdVQEV54dYiWgbMy-iuHT1blfQVaUiOFxYcBjqF4toe9Utmsr54Fiqo-MGOvFaYfZx9nDWs4EjVpCSFxzSyxqpv_s2jIp_QS9v-oeFROlIYQ/s4380/banner%202.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0 75%, 0 0);
+    background-size: cover;
+}
+
+.header::before{
+    content: "";
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.5s;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,99,219,1) 44%, rgba(78,149,89,1) 53%, rgba(0,212,255,1) 100%);
+
+
+}
+
+.navbar::before{
+    content: "";
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.5s;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,99,219,1) 44%, rgba(103,173,224,1) 53%, rgba(0,212,255,1) 100%);
+
+}
+
+
+.center-div{
+    text-align: center;
+
+ 
+}
+
+.center-div h1{
+    color: #fff;
+    font-size: 60px;
+}
+.center-div p{
+ color: #fff;
+ font-size: 30px;
+}
+
+.header-buttons a{
+    padding: 15px 35px;
+
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    text-align: center;   
+     display: inline-block;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     transition: .5s;
+
+
+}
+
+.header-buttons a:hover{
+    background-color: rgb(36, 112, 234);
+    color: black;
+
+}
+.mw{
+    width: 50px;
+    cursor: pointer;
+}
+
+/* header  end  */
+
+/* Header extra  */
+.Header-extra{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    border-radius: 3px;
+    padding: 50px !important;
+    transition: .3s ;
+
+}
+.extra-div h2 , .servicediv h2{
+    font-size: 1.9rem;
+    margin: 20px 0  15px 0 ;
+
+    line-height: 1.1;
+    word-spacing: 4px;
+    font-weight: 400;
+}
+.fa-3x{
+    color: rgb(31, 161, 200);
+}
+
+.extra-div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateY(-20px);
+    background-color: rgb(86, 133, 209);
+    border-radius: 45px;
+}
+/* header extra div end   */
+/* copy offer csss start  */
+.service-offer{
+    background-color: #f7f7f9;
+    padding: 50px 0 ;
+    margin-bottom: 50px;
+}
+.container-headings {
+    margin-bottom: 50px;
+}
+.container-headings h1{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+color: #2e2e2e;
+font-size: 2.4rem;
+text-transform: capitalize;
+font-weight: bold;
+}
+.progress{
+    height: 0.8rem;
+    margin-bottom: 10px;
+}
+.service-icon{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* copy offer css ens  */
+/* projest-work start */
+
+.projest-work{
+    margin: 100px 0 ;
+}
+.projest-work h1{
+    font-size: 2rem;
+    text-align: center;
+}
+/* projest-work end */
+/* pricing start  */
+.Pricing{
+
+    background-color: #f7f7f9;
+
+
+}
+.btn{
+     padding: 20px 40px ;
+     background-color: #fff;
+     border-color: rgb(69, 209, 163);
+     border-radius: 30px ;
+     color: rgb(22, 214, 150);
+}
+.btn:hover{
+    background-color: rgb(69, 209, 163);
+}
+.card{
+padding: 30px 0 ;
+background-color: #f7f7f9;
+transition: .5s;
+}
+.card:hover {
+
+    transform: translateY(-20px);
+
+    border-radius: 45px;
+}
+.cart-title{
+    font-size: 30px ;
+    font-weight: bold;
+}
+.cart-title:hover{
+    color: rgb(22, 214, 150);
+}
+.cart-body{
+    margin-bottom: 10px ;
+}
+.cart-body p {
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+/* pricing table end  */
+
+/*  */
+/*  */
+
+
+.mw{
+    width: 60px;
+}
+/*  */
+
+.box img {
+    width: 800px;
+    margin-left: -20%;
+    margin-top: -3%;
+
+}
+.contact{
+    background-color: #f7f7f9;
+}
+
+input[type="text"] {
+    padding: 4% 34%;
+    margin-bottom: 10px;
+    background-color: #539f98;
+}
+input[type="email"] {
+    padding: 4% 34%;
+    margin-bottom: 10px;
+    background-color: #539f98;
+}
+
+textarea {
+    resize: vertical;
+    padding: 0% 30%;
+    background-color: #539f98;
+}
+
+input[type="submit"] {
+    padding: 13px 45%;
+    text-align: center;
+    background-color: #0ea8e6;
+}
+
+
+/*  */
+
+.social  ul{}
+.social  ul li{
+    padding: 10px 20px ;
+
+}
+.social  ul li i{
+    color: #1170ff;
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+ 
+}
+
+/* mediya quary  */
+
+
+@media only screen and (max-width: 700px) {
+
+  .box img {
+    width: 620px;
+    margin-left: -36%;
+    margin-top: -2%;
+}
+textarea {
+    resize: vertical;
+    padding: 0px 78px;
+}
+input[type="text"] {
+    padding: 4% 27%;
+
+}
+input[type="email"] {
+    padding: 4% 27%;
+ 
+}
+.mt-3 {
+ 
+    text-align: center;
+}
+
+.center-div h1 {
+
+    font-size: 27px;
+}
+.center-div p {
+    color: #fff;
+    font-size: 17px;
+}
+.header-buttons a {
+    padding: 15px 29px;
+    margin-top: 10px
+px
+;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 10px;
+  
+}
+.extra-div h2, .servicediv h2 {
+    font-size: -6.1rem;
+    margin: 18px 0 15px 0;
+    font-weight: 400;
+}
+.container-headings h1 {
+    font-size: 1.9rem;
+
+}
+
+.projest-work h1 {
+    
+    margin-bottom: 39px;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+    text-align: center;
+}
+.center-div h1 {
+    color: #fff;
+    font-size: 36px;
+}
+.header-section {
+    width: 100%;
+    height: 87vh;
+}
+  }
